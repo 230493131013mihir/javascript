@@ -113,7 +113,17 @@
 let gender=(prompt("enter your gender: m/f"))
 let salary=parseInt(prompt("enter the salary"));
 let bonus=0;
-
+if(salary<10000){
+    if(gender == 'm'){
+        bonus=salary*0.02;
+    }
+    else if(gender == 'f'){
+        bonus=salary*0.03;
+}
+console.log("your bonus",bonus);
+}else{
+    console.log("you are no eligible for bonus")
+}
 
 
 
