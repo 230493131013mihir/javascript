@@ -11,5 +11,11 @@ const name = document.querySelector("input[name='name']").value
 console.log(name)
 }
 
-const alldata = document.querySelectorAll("box").value
-for (i>0; i<alldata.length; i++);
+const alldata = document.querySelectorAll('.box')
+
+
+for (let i = 0; i<alldata.length; i++);{
+    console.log(alldata[i].innerHTML);
+}
+
+
