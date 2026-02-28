@@ -10,3 +10,6 @@ function onsubmit1(){
 const name = document.querySelector("input[name='name']").value
 console.log(name)
 }
+
+const alldata = document.querySelectorAll("box").value
+for (i>0; i<alldata.length; i++);
