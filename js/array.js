@@ -1,4 +1,5 @@
 let arr = [2,4,6,8];
+let arr2 = [24,48];
 
 console.log(arr[3], arr.length );
 
@@ -46,3 +47,24 @@ console.log(r5);
 
 const r6 = arr.includes(8);
 console.log(r6);
+
+const r7 = arr.concat(arr2);
+console.log(r7);
+
+const r8 = arr.toString();
+console.log(r8);
+
+const r9 = Array.isArray(arr);
+console.log(r9);
+
+arr.push(38);
+arr.unshift(48);//add first
+arr.splice(2,0,40);
+
+arr.pop();                             //remove last
+arr.shift();                             //remove first
+arr.splice(2,1);
+
+
+arr[1] = 80;
+console.log(arr);
