@@ -13,8 +13,10 @@ console.log(name)
 
 const alldata = document.querySelectorAll('.box')
 
+console.log(alldata);
 
-for (let i = 0; i<alldata.length; i++);{
+
+for (let i = 0; i<alldata.length; i++){
     console.log(alldata[i].innerHTML);
 }
 
