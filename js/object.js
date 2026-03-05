@@ -9,6 +9,8 @@ const car = {
 document.getElementById("demo").innerHTML = "The car type is " + car.type;
 
 
+//properties
+
 const person = {
   firstname: "John",
   lastname: "Doe",
