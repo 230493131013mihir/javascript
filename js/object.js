@@ -230,15 +230,20 @@ let data1 = {
 };
 
 for (let k in data1){
-  // console.log(k,data[k])
+   console.log(k)
  
   if (k=== "personal_info"){
     for (let k1 in data1.personal_info){
-      console.log(data1[k][k1])
-    }else if(k === "courses"){
-    courses.map((v1) => {
+      console.log(k1,data1.personal_info[k1]);
+     }
+    } else if(k === "courses"){
+    data.courses.map((v1) =>  {
       console.log(v1)
     })
+    } else if (k=== "branches"){
+      for(k2 in data.branches){
+        console.log(k2,data.branches[k2])
+      }
     }
   }
 
@@ -251,4 +256,4 @@ for (let k in data1){
   // courses.map((v1) => {
   //   console.log(v1.courses)
   // })
-}
+
